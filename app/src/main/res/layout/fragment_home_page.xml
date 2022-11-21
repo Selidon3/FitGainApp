@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BAB5B5">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="198dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:layout_width="338dp"
+            android:layout_height="51dp"
+            android:text="Calories Progress Bar Status"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:indeterminateOnly="false"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_circle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:layout_constraintVertical_bias="0.24"
+            />
+
+        <TextView
+            android:id="@+id/currentPercent"
+            android:layout_width="56dp"
+            android:layout_height="25dp"
+            android:text="0%"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="@+id/progressBar"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toTopOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.302"
+            />
+
+        <TextView
+            android:id="@+id/currentCalories"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="@+id/progressBar"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toTopOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.502"
+            />
+
+        <TextView
+            android:layout_width="21dp"
+            android:layout_height="24dp"
+            android:text="/"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="@+id/progressBar"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toTopOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.502"
+            />
+
+        <TextView
+            android:id="@+id/weightCalories"
+            android:layout_width="73dp"
+            android:layout_height="23dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="@+id/progressBar"
+            app:layout_constraintHorizontal_bias="0.77"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toTopOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.502"
+            />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="27dp"
+            android:text="kCal"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="@+id/progressBar"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toTopOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.6999"
+            />
+
+        <TextView
+            android:id="@+id/progBarExceeded"
+            android:layout_width="294dp"
+            android:layout_height="54dp"
+            android:text="You have reached today's calorie limit!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.5"
+            />
+
+        <TextView
+            android:id="@+id/noDataToday"
+            android:layout_width="294dp"
+            android:layout_height="54dp"
+            android:text="You have no food history for today!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.5"
+            />
+
+        <TextView
+            android:id="@+id/targetWeight"
+            android:layout_width="261dp"
+            android:layout_height="38dp"
+            android:text="Your target weight is: 77 kg"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar"
+            app:layout_constraintVertical_bias="0.1"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

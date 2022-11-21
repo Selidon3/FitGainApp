@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History"
+    android:background="@color/bgCustom">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="198dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="96dp"
+            android:layout_height="22dp"
+            android:text="Pick Date"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.262" />
+
+        <EditText
+            android:id="@+id/TXTDateShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textAlignment="center"
+            android:clickable="false"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:focusableInTouchMode="false"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.325" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RECYCLERVIEWItems"
+            android:layout_width="match_parent"
+            android:layout_height="455dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/TXTNoHistoryToday"
+            android:layout_width="204dp"
+            android:layout_height="30dp"
+            android:text="No history for this date!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/RECYCLERVIEWItems"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.415" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/cardview_dark_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="82dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/TXTNamePut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TXTEmailPut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+</LinearLayout>

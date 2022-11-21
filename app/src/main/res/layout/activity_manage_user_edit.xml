@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageUserEdit"
+    android:background="@color/bgCustom">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_marginHorizontal="24pt"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginHorizontal="22pt"
+                android:id="@+id/imageView11"
+                android:layout_width="198dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/logo" />
+            <TextView
+                android:id="@+id/textView122292"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginHorizontal="38pt"
+                android:id="@+id/textView33"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="User Details"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:passwordToggleEnabled="false"
+                app:passwordToggleTint="@color/yellowCustom"
+                app:startIconDrawable="@drawable/name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/TXTManageEditName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView12229"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:passwordToggleEnabled="false"
+                app:passwordToggleTint="@color/yellowCustom"
+                app:startIconDrawable="@drawable/email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/TXTManageEditEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/TXTEditNameS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Weight:"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:passwordToggleEnabled="false"
+                    app:passwordToggleTint="@color/yellowCustom"
+                    app:startIconDrawable="@drawable/weight">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/TXTManageEditCurrentWeight"
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:textSize="18dp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <TextView
+                    android:id="@+id/textView22232"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E6E1E1"
+                    android:text=" KG"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Target Weight:"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:passwordToggleEnabled="false"
+                    app:passwordToggleTint="@color/yellowCustom"
+                    app:startIconDrawable="@drawable/weight">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/TXTManageEditTargetWeight"
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:textSize="18dp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <EditText
+                    android:id="@+id/TXTEditTargetWeightS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textView2232"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#E6E1E1"
+                    android:text=" KG"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <RadioGroup
+                android:layout_marginHorizontal="20pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/RADIOManageMale"
+                    android:layout_width="122dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/RADIOManageFemale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/BTNManageEditChanges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Changes" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/BTNManageChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView2734"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/BTNRemoveUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove User" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

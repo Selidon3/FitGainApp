@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/drawable/progress_circle2.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/drawable/side_nav_bar.xml" value="0.588" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.6104417670682731" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout-w936dp/activity_login.xml" value="0.6198770491803278" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_first_time_loged.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_log_in.xml" value="0.8220108695652174" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_log_in_main.xml" value="0.8220108695652174" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_login.xml" value="0.8220108695652174" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_main.xml" value="0.8220108695652174" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_main_screen.xml" value="0.5722772277227722" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_manage_user_edit.xml" value="0.6582064297800339" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_password_reset.xml" value="0.9" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_sign_up.xml" value="0.9" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/activity_testit.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/app_bar_testit.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/content_first_time_loged.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/content_testit.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/dialog_update_password.xml" value="0.2759259259259259" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_add_food.xml" value="0.5" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_editprofile.xml" value="0.37320574162679426" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_first.xml" value="0.6817708333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_first_time.xml" value="0.5647644927536232" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_first_time_enter.xml" value="0.75" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_firsttime.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_gallery.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_history.xml" value="0.67" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_home_page.xml" value="0.67" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_manage_users.xml" value="0.75" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/fragment_second.xml" value="0.5791666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/nav_header.xml" value="0.461499493414387" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/recyclerview_item.xml" value="0.67" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/layout/recyclerview_usersitem.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/menu/activity_main_drawer.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/menu/drawer_menu.xml" value="0.5351851851851852" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/menu/t_e_s_t_i_t.xml" value="0.95" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/FitGain/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
